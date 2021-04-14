@@ -9,8 +9,7 @@
 #define SPACE 32
 #define TAB 9
 
-void gotoxy(short x, short y)
+void gotoxy(int x,int y)	
 {
-	COORD pos ={x,y};
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),pos);
+	printf("%c[%d;%df",0x1B,y,x);
 }
