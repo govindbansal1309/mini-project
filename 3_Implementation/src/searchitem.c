@@ -17,7 +17,8 @@ void search_item()
 	sfile=fopen("NextFile.dat","r");
 	printf("\nEnter name to search:");
 	fflush(stdin);
-	gets(target);
+	scanf("%s", &target);
+	//gets(target);
 	target[0]=toupper(target[0]);
 	while (!feof(sfile) && found==0)
 	{
