@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
@@ -21,7 +20,7 @@ void read_item()
 		gotoxy(10,3);
 		printf("NO RECORDS");
 		printf("\n\t\tPress any key to go back to Menu.");
-		getch();
+		getchar();
 		menu();
 
 
@@ -72,7 +71,6 @@ void read_item()
 	fclose(f);
 	
 	printf("\nPress any key to go to Main Menu!");
-		//while((st.c = getch()) =='\r');
-		getch();
+		getchar();
 		menu();
 }
