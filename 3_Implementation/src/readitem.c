@@ -2,7 +2,6 @@
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
-#include<windows.h>
 #include<time.h>
 #include"headers.h"
 #define ENTER 13
