@@ -1,19 +1,16 @@
 # Introduction
-The Inventory Management system is a program that can be used by store owners who need to keep a track of their inventory. In any store, there are generally more than hundreds of items that the store owner needs to keep a track of. Details like product name, cost price, quantity left, quantity sold, etc. become a huge headache as the number of products increase. This Program solves such woes and provides a clean and simple way of keeping track of the products. 
+The Inventory Management system is a program that can be used by store owners who need to keep a track of their inventory. In any store, there are generally more than hundreds of items that the store owner needs to keep a track of. Details like product name, cost price, quantity, etc. become a huge headache as the number of products increase. This Program solves such woes and provides a clean and simple way of keeping track of the products. 
 
 # Features
 - Adding New Product details.
 - Displaying all the Products.
 - Editing the details of a Product.
 - Deleting a Product.
-- Making Sales Entry.
-- Displaying Products that are about to be out of stock.
 
 # SWOT Analysis
 ### Strengths
 
 1. Provides a simple solution to a problem that is faced by store owners.
-2. Can Provide Insights about sales.
 
 ### Weaknesses
 
