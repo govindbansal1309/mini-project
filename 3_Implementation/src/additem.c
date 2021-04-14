@@ -59,7 +59,8 @@ void add_item()
 			//printf("<<<<<<<<<<<<<<Enter Product Detail>>>>>>>>>>>>>");
 			fflush(stdin);
 			printf("\nProduct Name\t :");
-			gets(st.productname); // get input string
+			scanf("%s", &st.productname);
+			//gets(st.productname); // get input string
 			st.productname[0]=toupper(st.productname[0]);
 			//iterate for every character in string
 			for (index=0; index<strlen(st.productname); ++index)
