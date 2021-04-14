@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
@@ -77,7 +76,7 @@ void add_item()
 			if (!valid)
 			{
 				printf("\n Name contain invalid character. Please 'Enter' again");
-				getch();
+				getchar();
 			
 				
 			}
@@ -106,7 +105,7 @@ void add_item()
 			if (!valid)
 			{
 				printf("\n Name contain invalid character. Please 'Enter' again");
-				getch();
+				getchar();
 			
 				
 			}
@@ -135,6 +134,6 @@ void add_item()
 		printf("\nPress 'Enter' to add more item and any other key to go to main menu");
 		
 	}
-	while((c = getch()) =='\r');
+	while((c = getchar()) =='\r');
 	menu();
 }
