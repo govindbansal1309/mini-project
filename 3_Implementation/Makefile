@@ -1,12 +1,12 @@
 PROJECT_NAME = all
 SRC = main.c\
-src\additem.c\
-src\deleteitem.c\
-src\edititem.c\
-src\gotoxy.c\
-src\menu.c\
-src\readitem.c\
-src\searchitem.c
+src/additem.c\
+src/deleteitem.c\
+src/edititem.c\
+src/gotoxy.c\
+src/menu.c\
+src/readitem.c\
+src/searchitem.c
 
 INC = inc
 
