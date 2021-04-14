@@ -40,7 +40,7 @@ void search_item()
 		printf("Noo Record found");
 		fclose(sfile);
 		printf("\nPress any key to go to Main Menu!");
-		while((st.c = getch()) =='\r');
+		while((st.c = getchar()) =='\r');
 		menu();
 		
 }
