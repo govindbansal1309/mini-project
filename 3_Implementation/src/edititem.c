@@ -49,7 +49,8 @@ void edit_item()
 					
 					fflush(stdin);
 					printf("\nNew Product Name\t\t: ");
-					gets(st.productname); // get input string
+					scanf("%s", &st.productname);
+					//gets(st.productname); // get input string
 					st.productname[0]=toupper(st.productname[0]);
 					//iterate for every character in string
 					for (index=0; index<strlen(st.productname); ++index)
@@ -125,7 +126,7 @@ void edit_item()
 				
 				
 				printf("Press 'y' to edit the existing record or any key to cancel...");
-				edit=getche();
+				edit=getchar();
 				if(edit=='y' || edit=='Y')
 				{
 					fprintf(rp,"%s %s %i %i %i\n", st.productname, st.productcomp, st.price, st.productid,st.Qnt);
