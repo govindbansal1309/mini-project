@@ -11,10 +11,10 @@ src\searchitem.c
 INC = inc
 
 $(PROJECT_NAME): $(SRC)
-	gcc -I $(INC) $(SRC) -o all.exe
+	gcc -I $(INC) $(SRC) -o all.out
 
 run: $(PROJECT_NAME)
 	$(PROJECT_NAME)
 
 clean:
-	del /q *.exe
+	rm *.out
