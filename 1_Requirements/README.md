@@ -53,8 +53,6 @@ The store owner is presented with multiple options with all the available operat
 | 2  | Display Products       | Implemented |
 | 3  | Edit Product           | Implemented |
 | 4  | Delete Product         | Implemented |
-| 5  | Make a sale            | Implemented |
-| 6  | Show Depleted products | Implemented |
 
 # Low Level Requirements
 
@@ -62,5 +60,3 @@ The store owner is presented with multiple options with all the available operat
 | ---- | ------------------------------------------------------------------ | ----------- |
 | 1.1  | Add details like ID, Name, Quantity and Price                      | Implemented |
 | 3.1  | Edit details when given upon a choice of type                      | Implemented |
-| 5.1  | Make a sale after checking availability                            | Implemented |
-| 6.1  | Display all the product details which are about to be out of stock | Implemented |
