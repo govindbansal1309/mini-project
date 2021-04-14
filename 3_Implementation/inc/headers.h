@@ -72,7 +72,7 @@ void delete_item();
  * @brief function to go on a particular line in files for file handling
  * 
  */
-void gotoxy(short, short);
+void gotoxy(int, int);
 
 
 #endif
