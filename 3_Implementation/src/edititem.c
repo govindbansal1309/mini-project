@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
@@ -67,7 +66,7 @@ void edit_item()
 					if (!valid)
 					{
 						printf("\n Name contain invalid character. Please 'Enter' again");
-						getch();
+						getchar();
 					
 						
 					}
@@ -96,7 +95,7 @@ void edit_item()
 					if (!valid)
 					{
 						printf("\n Name contain invalid character. Please 'Enter' again");
-						getch();
+						getchar();
 					
 						
 					}
@@ -104,26 +103,26 @@ void edit_item()
 				
 					do
 			{
-				printf("\nNew Price [10-5000]Rupees:");
+				printf("\nNew Price in Rupees:");
 				scanf("%i",&st.price);
-				if(st.price<10 || st.price>5000)
+				if(st.price==0)
 				{
-					printf("\n\tYou Cannot Enter the price limit [10-5000].Re-Enter.");
+					printf("\n\tEnter Valid Price");
 				}
-			}while(st.price<10 || st.price>5000);
+			}while(!st.price);
 			
 				printf("\nEnter New Product Code\t\t:");
 				scanf("%i",&st.productid); 
 				
 				do
 			{
-				printf("\nNew Quantity [1-500]\t:");
+				printf("\nNew Quantity\t:");
 				scanf("%i",&st.Qnt);
-				if(st.Qnt<1 || st.Qnt>500)
+				if(st.Qnt==0)
 				{
-					printf("\n\tEnter New Quantity[1-500] only.Re-Enter.");
+					printf("\n\tEnter Valid Quantity");
 				}
-			}while(st.Qnt<1 || st.Qnt>500);
+			}while(!st.Qnt);
 				
 				
 				printf("Press 'y' to edit the existing record or any key to cancel...");
@@ -150,7 +149,7 @@ void edit_item()
 		fclose(fp);
 		remove("NextFile.dat");
 		rename("TempFile.dat","NextFile.dat");
-		getch();
+		getchar();
 	}
 	menu();
 }
