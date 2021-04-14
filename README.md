@@ -5,3 +5,5 @@ The Inventory Management system is a program that can be used by store owners wh
 - Editing product details
 
 ![Intro Photo](6_ImagesAndVideos/photo1.jpg)
+
+![C/C++ CI](https://github.com/govindbansal1309/mini-project/workflows/C/C++%20CI/badge.svg)
