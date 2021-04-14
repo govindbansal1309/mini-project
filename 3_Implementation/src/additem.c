@@ -118,7 +118,7 @@ void add_item()
 				scanf("%i",&st.price);
 				if(st.price==0)
 					printf("Price cannot be zero");
-			}while(st.price);
+			}while(!st.price);
 			
 				do
 			{
@@ -126,7 +126,7 @@ void add_item()
 				scanf("%i",&st.Qnt);
 				if(st.Qnt==0)
 					printf("Quantity cannot be zero");
-			}while(st.Qnt);
+			}while(!st.Qnt);
 		
 		fp=fopen("NextFile.dat","a");
 		fprintf(fp,"\n%s %s %i %i %i", st.productname, st.productcomp,st.price, st.productid,st.Qnt);
