@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 #include<ctype.h>
 #include<stdlib.h>
@@ -36,7 +35,7 @@ void delete_item(void)
 			if(!found)
 			{
 				printf("\n Record not Found");
-				getch();
+				getchar();
 				menu();
 			}
 			else
@@ -49,6 +48,6 @@ void delete_item(void)
 			rename("TempFile.dat","NextFile.dat");
 			
 			printf("\nPress any key to go to Main Menu!");
-		while((st.c = getch()) =='\r');
+		while((st.c = getchar()) =='\r');
 		menu();
 }
